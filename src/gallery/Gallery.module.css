@@ -1,0 +1,19 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery__button {
+  margin: 50px;
+}
+
+.gallery__memes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery__meme {
+  max-width: 200px;
+}
